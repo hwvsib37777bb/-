@@ -38,7 +38,7 @@ local function startGUI(language)
     langFrame:Destroy()
 
     local texts = {
-        title = language == "ar" and "BQZ_مطور سكربت سامي" or "PhantomX\nScript by: Yaseen",
+        title = language == "ar" and "BQZ_مطور سكربت سامي" or "Developer/Sami/BQZ",
         setPos = language == "ar" and "تحديد الموقع" or "Set Location",
         gotoPos = language == "ar" and "تنقل للموقع" or "Teleport to Location",
         speed = language == "ar" and "السرعة" or "Speed",
